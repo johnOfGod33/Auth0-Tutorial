@@ -1,11 +1,21 @@
 <header class="bg-gray-800 text-white py-4">
   <div class="container mx-auto flex justify-between items-center px-4">
     <h1 class="text-xl font-bold">Auth0 Tutoial</h1>
+    <% if (isAuthenticated) { %>
+
+    <button
+      id="login-btn"
+      class="bg-white text-blue-500 px-4 py-2 rounded-lg hover:bg-gray-200"
+    >
+      Logout
+    </button>
+    <% } else { %>
     <button
       id="login-btn"
       class="bg-white text-blue-500 px-4 py-2 rounded-lg hover:bg-gray-200"
     >
       Login
     </button>
+    <% } %>
   </div>
 </header>
