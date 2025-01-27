@@ -1,0 +1,21 @@
+{
+  "name": "auth0-tuto",
+  "version": "1.0.0",
+  "description": "Auth0 tutorial, IAM ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch server.js"
+  },
+  "author": "johnOfGod33",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-openid-connect": "^2.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0"
+  }
+}
